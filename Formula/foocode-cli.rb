@@ -1,4 +1,4 @@
-class foocodeCli < Formula
+class FoocodeCli < Formula
   desc "You use the veracode CLI to perform various actions for testing the security of your applications."
   homepage "https://www.veracode.com"
   version "2.26.0"
