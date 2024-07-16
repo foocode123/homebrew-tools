@@ -7,10 +7,10 @@ class FoocodeCli < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://tools.veracode.com/veracode-cli/veracode-cli_2.26.0_macosx_arm64.tar.gz"
-      sha256 "ec04c3445ef86be0ba121fc860c90a18769a5be29d87321b2da37ad8bc80fbf1"
+      sha256 "490cdcc53eda40898aa9c5c5109c5e943ff6d172e0e27750ee96ec407e0d045d"
     elsif Hardware::CPU.intel?
       url "https://tools.veracode.com/veracode-cli/veracode-cli_2.26.0_macosx_x86.tar.gz"
-      sha256 "5e2a6da79d3e60ba06811df0ed08555fdfa0cc69e5d0a49e4eaa3adf1bdb3b1c"
+      sha256 "df237451ccf7286bfcbb2e8a5e877bce2b161fee17a2880e608e123e29954874"
     end
 
     def install
@@ -20,7 +20,7 @@ class FoocodeCli < Formula
 
   on_linux do
     url "https://tools.veracode.com/veracode-cli/veracode-cli_2.26.0_linux_x86.tar.gz"
-    sha256 "fd3744870d47895f4946e06ba26a8a0fbb6da3f397ddc6a32014dc989acb7cd6"
+    sha256 "f6380812204a4d4241f6ee5a6a858bdaece0cbf3e70ab42a52b8559b8c4b887e"
 
     def install
       bin.install "veracode"
